@@ -17,7 +17,7 @@ export default function Home({articles}) {
       </Head>
 
       <main>
-        <Hero />
+        <Hero bangs={4}/>
         <CoverImage/>
         <ArticleList articles={articles} />
       </main>
